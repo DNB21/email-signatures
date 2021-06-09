@@ -4,8 +4,8 @@ role: Production Executive
 company: Do Not Bend Productions Ltd
 phone: +44 (0) 7584 126 792
 email: office@donotbendproductions.com
-website: http://www.donotbendproductions.com/
-logo: assets/logo.png
+website: www.donotbendproductions.com
+logo: logo.png
 social:
   -
     name: facebook

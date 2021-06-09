@@ -8,19 +8,18 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="0">
-            <mj-column>
-                <mj-text>
-                    <a href="{{website}}/" style="color: inherit; text-decoration: none;">
-                        <img alt="Do Not Bend"
-                            src="https://lh3.googleusercontent.com/d/1T8wKSkdF0av6XznrL484vFpLsx00OaYm=s600?authuser=0"
-                            style="height: 86px; width: 200px"
+        <mj-section padding="0" text-align="left">
+            <mj-group width="250px">
+                <mj-column>
+                    <mj-image
+                        alt="{{company}}"
+                        href="{{{website}}}"
+                        src="{{{assetUrl}}}/{{user}}/assets/{{logo}}"
                         />
-                    </a>
-                </mj-text>
-            </mj-column>
+                </mj-column>
+            </mj-group>
         </mj-section>
-        <mj-section padding="0 25px 20px" text-align="left">
+        <mj-section padding="0 25px" text-align="left">
             <mj-group width="200px">
                 {{#social}}
                     <mj-column>
@@ -32,25 +31,25 @@
         <mj-section>
             <mj-column>
                 <mj-text>
-                    <strong>Do Not Bend Productions Ltd</strong>
+                    <strong>{{company}}</strong>
                 </mj-text>
                 <mj-text
                     padding-bottom="5px"
                     padding-top="5px"
                     >
-                    Tel: <a href="tel: +447584126792" title="+44 7584126792">+44 7584126792</a>
+                    Tel: <a href="tel: {{{phone}}}" title="{{{phone}}}">{{{phone}}}</a>
                 </mj-text>
                 <mj-text
                     padding-bottom="5px"
                     padding-top="5px"
                     >
-                    Email: <a href="mailto: office@donotbendproductions.com" title="mailto: office@donotbendproductions.com">office@donotbendproductions.com</a><br>
+                    Email: <a href="mailto: {{{email}}}" title="mailto: {{{email}}}">{{{email}}}</a><br>
                 </mj-text>
                 <mj-text
                     padding-bottom="5px"
                     padding-top="5px"
                     >
-                    Web: <a href="http://www.donotbendproductions.com" title="http://www.donotbendproductions.com">www.donotbendproductions.com</a>
+                    Web: <a href="http://{{{website}}}/" title="{{{website}}}">{{{website}}}</a>
                 </mj-text>
             </mj-column>
         </mj-section>
