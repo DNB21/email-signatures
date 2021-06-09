@@ -36,6 +36,7 @@ function processHtml () {
   if (argv.env !== 'production') {
     data.assetUrl = '.';
   }
+
   return src('./src/default/signature.mjml')
     .pipe(mustache(data))
     // .pipe(through2.obj(file => console.log(file.contents.toString())))
@@ -48,7 +49,7 @@ function processHtml () {
       removeRedundantAttributes: true,
       removeOptionalTags: true
     }))
-    .pipe(prettier())
+    .pipe(argv.env !== 'production' ? prettier() : through2.obj())
     .pipe(dest('./dist/' + user));
 }
 
