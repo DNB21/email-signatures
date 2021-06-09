@@ -20,5 +20,10 @@
     "node-html-parser": "^3.3.5",
     "through2": "^4.0.2",
     "yargs": "^16.2.0"
+  },
+  "scripts": {
+    "postInstall": "gulp build",
+    "dev": "gulp watch",
+    "prePublish": "gulp build --env=production"
   }
 }

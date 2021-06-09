@@ -33,12 +33,12 @@ function processHtml () {
   var user = argv.user || argv.u || 'default';
   var data = loadFiles(['./src/default/data.yml', './src/users/' + user + '/data.yml']);
   data.user = user;
-  if (process.env.NODE_ENV !== 'production') {
+  if (argv.env !== 'production') {
     data.assetUrl = '.';
   }
   return src('./src/default/signature.mjml')
     .pipe(mustache(data))
-    .pipe(through2.obj(file => console.log(file.contents.toString())))
+    // .pipe(through2.obj(file => console.log(file.contents.toString())))
     .pipe(mjml(mjmlEngine, {validationLevel: 'soft'}))
     .pipe(through2.obj(extractRequiredHtml))
     .pipe(htmlmin({
