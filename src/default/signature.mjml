@@ -1,0 +1,65 @@
+<mjml>
+    <mj-body width="100%">
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text>
+                    <p><strong>{{name}}</strong></p>
+                    <p><strong>{{role}}</strong></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text>
+                    <a href="{{website}}/" style="color: inherit; text-decoration: none;">
+                        <img alt="Do Not Bend"
+                            src="https://lh3.googleusercontent.com/d/1T8wKSkdF0av6XznrL484vFpLsx00OaYm=s600?authuser=0"
+                            style="height: 86px; width: 200px"
+                        />
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 25px 20px" text-align="left">
+            <mj-group width="200px">
+                {{#social}}
+                    <mj-column>
+                        {{> social-link}}
+                    </mj-column>
+                {{/social}}
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <strong>Do Not Bend Productions Ltd</strong>
+                </mj-text>
+                <mj-text
+                    padding-bottom="5px"
+                    padding-top="5px"
+                    >
+                    Tel: <a href="tel: +447584126792" title="+44 7584126792">+44 7584126792</a>
+                </mj-text>
+                <mj-text
+                    padding-bottom="5px"
+                    padding-top="5px"
+                    >
+                    Email: <a href="mailto: office@donotbendproductions.com" title="mailto: office@donotbendproductions.com">office@donotbendproductions.com</a><br>
+                </mj-text>
+                <mj-text
+                    padding-bottom="5px"
+                    padding-top="5px"
+                    >
+                    Web: <a href="http://www.donotbendproductions.com" title="http://www.donotbendproductions.com">www.donotbendproductions.com</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="12px">
+                        IMPORTANT NOTICE: This e-mail message is intended to be received only by persons entitled to receive the confidential information it may contain. E-mail messages to clients of Do Not Bend Productions may contain information that is confidential and legally privileged. Please do not read, copy, forward, or store this message unless you are an intended recipient of it. If you have received this message in error, please forward it to the sender and delete it completely from your computer system.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

@@ -1,0 +1,25 @@
+assetUrl: https://github.com/DNB21/email-signatures/blob/main/dist
+name: John Doe
+role: Production Executive
+company: Do Not Bend Productions Ltd
+phone: +44 (0) 7584 126 792
+email: office@donotbendproductions.com
+website: http://www.donotbendproductions.com/
+logo: assets/logo.png
+social:
+  -
+    name: facebook
+    url: https://www.facebook.com/donotbendproductions/
+  -
+    name: instagram
+    url: https://www.instagram.com/donotbendprod/
+  -
+    name: twitter
+    url: https://twitter.com/donotbendprod/
+  -
+    name: youtube
+    url: https://www.youtube.com/watch?v=lXYOG1JfH8M/
+  -
+    name: imdb
+    url: https://www.imdb.com/name/nm8509475/
+privacy: "IMPORTANT NOTICE: This e-mail message is intended to be received only by persons entitled to receive the confidential information it may contain. E-mail messages to clients of Do Not Bend Productions may contain information that is confidential and legally privileged. Please do not read, copy, forward, or store this message unless you are an intended recipient of it. If you have received this message in error, please forward it to the sender and delete it completely from your computer system."

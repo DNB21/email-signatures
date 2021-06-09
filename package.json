@@ -1,0 +1,24 @@
+{
+  "name": "email-signatures",
+  "version": "1.0.0",
+  "description": "Do Not Bend Productions email signatures",
+  "main": "index.js",
+  "repository": "git@github.com:DNB21/email-signatures.git",
+  "author": "Rich J <richard@jesudason.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-mjml": "^4.0.2",
+    "gulp-mustache": "^5.0.0",
+    "gulp-prettier": "^3.0.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "mjml": "^4.9.1",
+    "mjml-utils": "^2.2.1",
+    "node-html-parser": "^3.3.5",
+    "through2": "^4.0.2",
+    "yargs": "^16.2.0"
+  }
+}

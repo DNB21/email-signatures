@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>assets/icons/facebook</title>
+    <g id="assets/icons/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" fill="#000000" fill-rule="nonzero">
+            <path d="M24,12 C24,5.373 18.627,0 12,0 C5.373,0 0,5.373 0,12 C0,17.99 4.388,22.954 10.125,23.854 L10.125,15.469 L7.078,15.469 L7.078,11.999 L10.125,11.999 L10.125,9.357 C10.125,6.35 11.917,4.688 14.658,4.688 C15.97,4.688 17.344,4.923 17.344,4.923 L17.344,7.876 L15.83,7.876 C14.339,7.876 13.874,8.801 13.874,9.75 L13.874,12 L17.202,12 L16.67,15.47 L13.874,15.47 L13.874,23.855 C19.612,22.954 24,17.989 24,12 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
