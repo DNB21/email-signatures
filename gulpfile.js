@@ -55,7 +55,7 @@ function processHtml () {
 
 function processAssets () {
   var user = argv.user || argv.u || 'default';
-  return src('./src/default/assets/**/*')
+  return src('./src/default/assets/**/*.png')
     .pipe(dest('./dist/' + user + '/assets'));
 }
 
