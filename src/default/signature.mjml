@@ -1,6 +1,6 @@
 <mjml>
     <mj-body width="100%">
-        <mj-section padding="0">
+        <mj-section padding="0" text-align="left">
             <mj-column>
                 <mj-text>
                     <p><strong>{{name}}</strong></p>
@@ -28,7 +28,7 @@
                 {{/social}}
             </mj-group>
         </mj-section>
-        <mj-section>
+        <mj-section text-align="left">
             <mj-column>
                 <mj-text>
                     <strong>{{company}}</strong>
@@ -53,7 +53,7 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section>
+        <mj-section text-align="left">
             <mj-column>
                 <mj-text font-size="12px">
                         IMPORTANT NOTICE: This e-mail message is intended to be received only by persons entitled to receive the confidential information it may contain. E-mail messages to clients of Do Not Bend Productions may contain information that is confidential and legally privileged. Please do not read, copy, forward, or store this message unless you are an intended recipient of it. If you have received this message in error, please forward it to the sender and delete it completely from your computer system.
